@@ -2,12 +2,15 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
+
+
 .hero-image {
-  /* This is your opening image. You will need to change feet.jpg to something of your choice*/
+  /* This is your opening image. You will need to change stonehenge.jpg to something of your choice*/
   
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("feet.jpg");
+background-image: linear-gradient(rgba(0.5, 0.5, 0.5, 0.5), rgba(0.5, 0.5, 0.5, 0.5)), url("stonehenge.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -24,14 +27,14 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
   font-size: 250%;
 }
 
-/* This is what controls that cool parallax scrolling effect. Change the image "feet.jpg" below to your image.*/
+/* This is what controls that cool parallax scrolling effect. Change the image "stonehenge.jpg" below to your image.*/
 /*You can always add more parlax assets on your web document, just follow the directions at the bottom of the index.html.*/
 .parallax-1 { 
-  background-image: url("feet.jpg");
+  background-image: url("stonehenge.jpg");
 
   /* Set a specific height */
   height: 500px; 
